@@ -1,4 +1,5 @@
 <?php
+	echo('tere');
 	if(isset($_request["valgus"])){
 		$f=open("valgusandmed1.txt", "a");
 		fwrite($f, intval($_REQUEST["valgus"].",".
